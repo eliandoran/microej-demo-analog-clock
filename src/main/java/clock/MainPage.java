@@ -33,7 +33,6 @@ public class MainPage extends SimpleDock {
 
 			@Override
 			public void run() {
-				System.out.println("Run");
 				Calendar calendar = Calendar.getInstance();
 				calendar.setTime(new Date(System.currentTimeMillis()));
 
