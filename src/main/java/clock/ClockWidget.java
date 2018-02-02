@@ -20,9 +20,6 @@ public class ClockWidget extends StyledWidget {
 	private int minutes = 0;
 	private int seconds = 0;
 
-	public ClockWidget() {
-	}
-
 	@Override
 	public void renderContent(GraphicsContext g, Style style, Rectangle bounds) {
 		g.setColor(style.getBackgroundColor());
