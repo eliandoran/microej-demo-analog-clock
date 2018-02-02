@@ -7,6 +7,7 @@
 package clock;
 
 import ej.microui.display.GraphicsContext;
+import ej.mwt.MWT;
 import ej.style.Style;
 import ej.style.container.Rectangle;
 import ej.widget.StyledWidget;
@@ -72,7 +73,7 @@ public class ClockWidget extends StyledWidget {
 	@Override
 	public Rectangle validateContent(Style style, Rectangle bounds) {
 		Rectangle rect = new Rectangle();
-		rect.setSize(320, 200);
+		rect.setSize(MWT.NONE, MWT.NONE);
 		return rect;
 	}
 }
