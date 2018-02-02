@@ -43,7 +43,7 @@ public class MainPage extends SimpleDock {
 			}
 		}, 0, 500);
 
-		this.setFirst(this.clockLabel);
+		this.setLast(this.clockLabel);
 		this.setCenter(this.clock);
 	}
 }
