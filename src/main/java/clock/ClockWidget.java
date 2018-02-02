@@ -60,10 +60,6 @@ public class ClockWidget extends StyledWidget {
 			h = 0;
 		}
 
-		if (m > 13) {
-			m -= 12;
-		}
-
 		if (this.hours != h || this.minutes != m || this.seconds != s) {
 			this.repaint();
 		}
