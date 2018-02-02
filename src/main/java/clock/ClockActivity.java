@@ -35,6 +35,7 @@ public class ClockActivity implements Activity {
 	@Override
 	public void onStart() {
 		MicroUI.start();
+		StylesheetBuilder.initialize();
 
 		Desktop desktop = new Desktop();
 
