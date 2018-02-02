@@ -6,7 +6,6 @@
  */
 package clock;
 
-import ej.microui.display.Colors;
 import ej.microui.display.GraphicsContext;
 import ej.style.Style;
 import ej.style.container.Rectangle;
@@ -25,13 +24,13 @@ public class ClockWidget extends StyledWidget {
 
 	@Override
 	public void renderContent(GraphicsContext g, Style style, Rectangle bounds) {
-		g.setColor(Colors.BLACK);
+		g.setColor(style.getBackgroundColor());
 		g.fillRect(bounds.getX(), bounds.getY(), bounds.getWidth(), bounds.getHeight());
 
 		int minDimension = Math.min(bounds.getWidth(), bounds.getHeight());
 		int diameter = (int) Math.round(minDimension / 1.25);
 
-		g.setColor(Colors.RED);
+		g.setColor(style.getForegroundColor());
 		g.drawCircle((bounds.getWidth() - diameter) / 2, (bounds.getHeight() - diameter) / 2, diameter);
 
 		double hourAngle = 0.5 * (60 * this.hours + this.minutes);
