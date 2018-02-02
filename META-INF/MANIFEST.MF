@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Application-Id: clock
+Application-Version: 0.1.0
+Application-PrintableName: clock
+Application-Description: clock
+Application-IconsDirectory: icons
+Application-Activities: clock.ClockActivity
