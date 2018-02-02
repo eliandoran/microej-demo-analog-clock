@@ -64,10 +64,13 @@ public class ClockWidget extends StyledWidget {
 			m -= 12;
 		}
 
+		if (this.hours != h || this.minutes != m || this.seconds != s) {
+			this.repaint();
+		}
+
 		this.hours = h;
 		this.minutes = m;
 		this.seconds = s;
-		this.repaint();
 	}
 
 	@Override
