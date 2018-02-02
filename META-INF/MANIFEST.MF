@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Application-Id: clock
+Application-Id: AnalogClock
 Application-Version: 0.1.0
-Application-PrintableName: clock
-Application-Description: clock
+Application-PrintableName: Analog Clock
+Application-Description: An application which displays the current time using an analog clock representation.
 Application-IconsDirectory: icons
 Application-Activities: clock.ClockActivity
