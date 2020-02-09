@@ -1,23 +1,6 @@
-<!--
-	Markdown
--->
+# Analog clock
 
-# Overview
-MicroEJ Application: clock.
+_Demonstrative application showing an analog clock, as well as the current date/time._
 
-# Usage
-Add the following line to your `module.ivy` or your `ivy.xml`:
-> `<dependency org="xyz.doran.elian" name="clock" rev="..."/>`
-
-# Requirements
-  - EDC-1.2 or higher
-  - Wadapps Framework 1.2.0 or higher
-
-# Dependencies
-_All dependencies are retrieved transitively by Ivy resolver_.
-
-# Source
-N/A
-
-# Restrictions
-None.
+## Screenshot
+![Screenshot](./Screenshot.png)
